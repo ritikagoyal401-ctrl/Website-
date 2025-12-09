@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+background-color: black;
+padding: 2rem;
+} 
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color: rgb(231, 118, 25);
+    font-size: xX-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li {
+    list-style-type: none;
+    display: inline;
+     padding: 8px;
+    text-align: left;
+}
+li a{
+    color: rgb(73, 206, 206);
+    padding: 0.5rem, 1rem;
+}
+li a:hover {
+    background-color: rgb(152, 147, 57);
+    border-radius: 5px;
+}  
+
+    </style>
+</head>
+<body>
+     <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Ritika Goyal</a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav> 
+    <br>
+<form action="">
+    <h5>Enter name : </h5>
+    <input type="text" placeholder="Type text here">
+    <br>
+    <br>
+    <h5>Subject:</h5>
+    <select name="subject" id="subject">
+        <option value="English">English</option>
+        <option value="Math">Math</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="Physics">Physics</option>
+    </select>
+    <br><br>
+    <h5>Enter email: </h5>
+    <input type="text" name="email" id="email" placeholder="Enter your valid email">
+    <br><br>
+    <h5>Message:</h5>
+    <textarea name="feedback" id="feedback" placeholder="Type message here"></textarea>
+    <br>
+   <input type="submit" id="submit">
+</form>
+</body>
+</html>
